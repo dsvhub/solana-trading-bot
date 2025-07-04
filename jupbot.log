@@ -13262,3 +13262,309 @@ AttributeError: type object 'solders.transaction.VersionedTransaction' has no at
 2025-07-04 01:39:32,078 - INFO - Current Price: $153.07
 2025-07-04 01:39:32,078 - INFO - Position open: True
 2025-07-04 01:39:32,081 - INFO - Entry price: 153.25, Range: 153.05–153.45, Current: $153.07
+2025-07-04 01:39:46,955 - INFO - solana-py version 0.36.7 is up to date.
+2025-07-04 01:40:17,963 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:40:17,985 - INFO - RPC endpoint validated successfully: https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/
+2025-07-04 01:40:18,043 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:40:18,045 - INFO - Bot started.
+2025-07-04 01:40:18,046 - INFO - Wallet: 9MNuZE8B77FUM3kbWffWrXLANJvAC8BDEiWenprPTQdW
+2025-07-04 01:40:18,046 - INFO - Balance: 0.0426 SOL
+2025-07-04 01:40:18,881 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:40:18,900 - INFO - Current Price: $153.08
+2025-07-04 01:40:18,900 - INFO - Position open: False
+2025-07-04 01:40:18,903 - INFO - Entry price: 153.50, Range: 153.30–153.70, Current: $153.08
+2025-07-04 01:40:46,547 - INFO - Bot stopped by user.
+2025-07-04 01:40:52,658 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:40:52,659 - INFO - RPC endpoint validated successfully: https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/
+2025-07-04 01:40:52,761 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:40:52,763 - INFO - Bot started.
+2025-07-04 01:40:52,763 - INFO - Wallet: 9MNuZE8B77FUM3kbWffWrXLANJvAC8BDEiWenprPTQdW
+2025-07-04 01:40:52,763 - INFO - Balance: 0.0426 SOL
+2025-07-04 01:40:53,217 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:40:53,234 - INFO - Current Price: $153.23
+2025-07-04 01:40:53,234 - INFO - Position open: False
+2025-07-04 01:40:53,234 - INFO - Entry price: 153.50, Range: 153.30–153.70, Current: $153.23
+2025-07-04 01:41:08,210 - INFO - Bot stopped by user.
+2025-07-04 01:41:10,223 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:41:10,223 - INFO - RPC endpoint validated successfully: https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/
+2025-07-04 01:41:10,306 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:41:10,308 - INFO - Bot started.
+2025-07-04 01:41:10,308 - INFO - Wallet: 9MNuZE8B77FUM3kbWffWrXLANJvAC8BDEiWenprPTQdW
+2025-07-04 01:41:10,309 - INFO - Balance: 0.0426 SOL
+2025-07-04 01:41:10,795 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:41:10,814 - INFO - Current Price: $153.23
+2025-07-04 01:41:10,816 - INFO - Position open: False
+2025-07-04 01:41:10,820 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:41:10,820 - INFO - BUY at $153.23 | SL: $150.17, TP: $170.09
+2025-07-04 01:41:11,338 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:41:11,348 - INFO - Current Price: $153.23
+2025-07-04 01:41:11,349 - INFO - Position open: True
+2025-07-04 01:41:11,349 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:41:23,621 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:41:23,623 - INFO - Current Price: $153.23
+2025-07-04 01:41:23,623 - INFO - Position open: True
+2025-07-04 01:41:23,651 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:41:41,587 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:41:41,588 - INFO - Current Price: $153.23
+2025-07-04 01:41:41,589 - INFO - Position open: True
+2025-07-04 01:41:41,594 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:41:53,926 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:41:53,930 - INFO - Current Price: $153.23
+2025-07-04 01:41:53,931 - INFO - Position open: True
+2025-07-04 01:41:53,944 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:42:11,802 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:42:11,803 - INFO - Current Price: $153.23
+2025-07-04 01:42:11,803 - INFO - Position open: True
+2025-07-04 01:42:11,807 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:42:24,158 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:42:24,159 - INFO - Current Price: $153.22
+2025-07-04 01:42:24,159 - INFO - Position open: True
+2025-07-04 01:42:24,159 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:42:42,154 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:42:42,155 - INFO - Current Price: $153.22
+2025-07-04 01:42:42,156 - INFO - Position open: True
+2025-07-04 01:42:42,159 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:42:54,368 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:42:54,369 - INFO - Current Price: $153.22
+2025-07-04 01:42:54,369 - INFO - Position open: True
+2025-07-04 01:42:54,372 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:43:12,362 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:43:12,363 - INFO - Current Price: $153.22
+2025-07-04 01:43:12,364 - INFO - Position open: True
+2025-07-04 01:43:12,367 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:43:24,616 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:43:24,616 - INFO - Current Price: $153.20
+2025-07-04 01:43:24,617 - INFO - Position open: True
+2025-07-04 01:43:24,619 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.20
+2025-07-04 01:43:43,715 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:43:43,716 - INFO - Current Price: $153.20
+2025-07-04 01:43:43,717 - INFO - Position open: True
+2025-07-04 01:43:43,721 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.20
+2025-07-04 01:43:56,019 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:43:56,020 - INFO - Current Price: $153.22
+2025-07-04 01:43:56,020 - INFO - Position open: True
+2025-07-04 01:43:56,024 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:44:14,044 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:44:14,045 - INFO - Current Price: $153.22
+2025-07-04 01:44:14,046 - INFO - Position open: True
+2025-07-04 01:44:14,049 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:44:26,293 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:44:26,293 - INFO - Current Price: $153.22
+2025-07-04 01:44:26,294 - INFO - Position open: True
+2025-07-04 01:44:26,297 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:44:44,287 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:44:44,288 - INFO - Current Price: $153.22
+2025-07-04 01:44:44,288 - INFO - Position open: True
+2025-07-04 01:44:44,292 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:44:56,618 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:44:56,619 - INFO - Current Price: $153.22
+2025-07-04 01:44:56,619 - INFO - Position open: True
+2025-07-04 01:44:56,619 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:45:15,168 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:45:15,169 - INFO - Current Price: $153.24
+2025-07-04 01:45:15,170 - INFO - Position open: True
+2025-07-04 01:45:15,173 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.24
+2025-07-04 01:45:26,962 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:45:26,962 - INFO - Current Price: $153.24
+2025-07-04 01:45:26,963 - INFO - Position open: True
+2025-07-04 01:45:26,969 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.24
+2025-07-04 01:45:45,592 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:45:45,595 - INFO - Current Price: $153.24
+2025-07-04 01:45:45,595 - INFO - Position open: True
+2025-07-04 01:45:45,600 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.24
+2025-07-04 01:45:57,336 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:45:57,337 - INFO - Current Price: $153.26
+2025-07-04 01:45:57,337 - INFO - Position open: True
+2025-07-04 01:45:57,343 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.26
+2025-07-04 01:46:15,871 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:46:15,872 - INFO - Current Price: $153.24
+2025-07-04 01:46:15,872 - INFO - Position open: True
+2025-07-04 01:46:15,880 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.24
+2025-07-04 01:46:27,652 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:46:27,653 - INFO - Current Price: $153.26
+2025-07-04 01:46:27,653 - INFO - Position open: True
+2025-07-04 01:46:27,657 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.26
+2025-07-04 01:46:46,107 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:46:46,108 - INFO - Current Price: $153.26
+2025-07-04 01:46:46,108 - INFO - Position open: True
+2025-07-04 01:46:46,113 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.26
+2025-07-04 01:46:57,916 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:46:57,917 - INFO - Current Price: $153.23
+2025-07-04 01:46:57,917 - INFO - Position open: True
+2025-07-04 01:46:57,921 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:47:16,310 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:47:16,311 - INFO - Current Price: $153.26
+2025-07-04 01:47:16,312 - INFO - Position open: True
+2025-07-04 01:47:16,316 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.26
+2025-07-04 01:47:28,592 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:47:28,594 - INFO - Current Price: $153.26
+2025-07-04 01:47:28,596 - INFO - Position open: True
+2025-07-04 01:47:28,604 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.26
+2025-07-04 01:47:46,591 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:47:46,592 - INFO - Current Price: $153.23
+2025-07-04 01:47:46,592 - INFO - Position open: True
+2025-07-04 01:47:46,593 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:47:58,952 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:47:58,953 - INFO - Current Price: $153.23
+2025-07-04 01:47:58,954 - INFO - Position open: True
+2025-07-04 01:47:58,960 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:48:16,866 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:48:16,867 - INFO - Current Price: $153.23
+2025-07-04 01:48:16,867 - INFO - Position open: True
+2025-07-04 01:48:16,869 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:48:29,355 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:48:29,356 - INFO - Current Price: $153.23
+2025-07-04 01:48:29,356 - INFO - Position open: True
+2025-07-04 01:48:29,360 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:48:47,148 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:48:47,148 - INFO - Current Price: $153.23
+2025-07-04 01:48:47,150 - INFO - Position open: True
+2025-07-04 01:48:47,153 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:48:59,594 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:48:59,595 - INFO - Current Price: $153.23
+2025-07-04 01:48:59,595 - INFO - Position open: True
+2025-07-04 01:48:59,599 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.23
+2025-07-04 01:49:17,527 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:49:17,529 - INFO - Current Price: $153.22
+2025-07-04 01:49:17,531 - INFO - Position open: True
+2025-07-04 01:49:17,535 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:49:29,952 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:49:29,953 - INFO - Current Price: $153.22
+2025-07-04 01:49:29,955 - INFO - Position open: True
+2025-07-04 01:49:29,966 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:49:47,813 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:49:47,813 - INFO - Current Price: $153.22
+2025-07-04 01:49:47,813 - INFO - Position open: True
+2025-07-04 01:49:47,818 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:50:00,334 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:50:00,343 - INFO - Current Price: $153.16
+2025-07-04 01:50:00,344 - INFO - Position open: True
+2025-07-04 01:50:00,346 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.16
+2025-07-04 01:50:18,154 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:50:18,155 - INFO - Current Price: $153.22
+2025-07-04 01:50:18,155 - INFO - Position open: True
+2025-07-04 01:50:18,158 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.22
+2025-07-04 01:50:30,671 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:50:30,672 - INFO - Current Price: $153.16
+2025-07-04 01:50:30,672 - INFO - Position open: True
+2025-07-04 01:50:30,674 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.16
+2025-07-04 01:50:48,573 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:50:48,573 - INFO - Current Price: $153.16
+2025-07-04 01:50:48,574 - INFO - Position open: True
+2025-07-04 01:50:48,580 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.16
+2025-07-04 01:51:00,964 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:51:00,965 - INFO - Current Price: $153.11
+2025-07-04 01:51:00,966 - INFO - Position open: True
+2025-07-04 01:51:00,971 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.11
+2025-07-04 01:51:18,893 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:51:18,894 - INFO - Current Price: $153.11
+2025-07-04 01:51:18,894 - INFO - Position open: True
+2025-07-04 01:51:18,898 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.11
+2025-07-04 01:51:31,360 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:51:31,361 - INFO - Current Price: $153.11
+2025-07-04 01:51:31,363 - INFO - Position open: True
+2025-07-04 01:51:31,370 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.11
+2025-07-04 01:51:49,293 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:51:49,294 - INFO - Current Price: $153.11
+2025-07-04 01:51:49,295 - INFO - Position open: True
+2025-07-04 01:51:49,301 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.11
+2025-07-04 01:52:01,652 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:52:01,652 - INFO - Current Price: $153.11
+2025-07-04 01:52:01,653 - INFO - Position open: True
+2025-07-04 01:52:01,659 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.11
+2025-07-04 01:52:19,554 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:52:19,555 - INFO - Current Price: $153.09
+2025-07-04 01:52:19,555 - INFO - Position open: True
+2025-07-04 01:52:19,558 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.09
+2025-07-04 01:52:31,949 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:52:31,950 - INFO - Current Price: $153.09
+2025-07-04 01:52:31,951 - INFO - Position open: True
+2025-07-04 01:52:31,956 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.09
+2025-07-04 01:52:49,801 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:52:49,802 - INFO - Current Price: $153.09
+2025-07-04 01:52:49,803 - INFO - Position open: True
+2025-07-04 01:52:49,804 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.09
+2025-07-04 01:53:02,277 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:53:02,277 - INFO - Current Price: $153.07
+2025-07-04 01:53:02,278 - INFO - Position open: True
+2025-07-04 01:53:02,280 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.07
+2025-07-04 01:53:20,124 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:53:20,124 - INFO - Current Price: $153.07
+2025-07-04 01:53:20,124 - INFO - Position open: True
+2025-07-04 01:53:20,127 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.07
+2025-07-04 01:53:32,595 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:53:32,596 - INFO - Current Price: $153.07
+2025-07-04 01:53:32,596 - INFO - Position open: True
+2025-07-04 01:53:32,599 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.07
+2025-07-04 01:53:50,365 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:53:50,365 - INFO - Current Price: $153.07
+2025-07-04 01:53:50,366 - INFO - Position open: True
+2025-07-04 01:53:50,369 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.07
+2025-07-04 01:54:02,919 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:54:02,919 - INFO - Current Price: $153.07
+2025-07-04 01:54:02,920 - INFO - Position open: True
+2025-07-04 01:54:02,922 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.07
+2025-07-04 01:54:20,595 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:54:20,595 - INFO - Current Price: $153.06
+2025-07-04 01:54:20,596 - INFO - Position open: True
+2025-07-04 01:54:20,601 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
+2025-07-04 01:54:33,297 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:54:33,298 - INFO - Current Price: $153.06
+2025-07-04 01:54:33,298 - INFO - Position open: True
+2025-07-04 01:54:33,302 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
+2025-07-04 01:54:50,888 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:54:50,888 - INFO - Current Price: $153.06
+2025-07-04 01:54:50,890 - INFO - Position open: True
+2025-07-04 01:54:50,893 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
+2025-07-04 01:55:03,617 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:55:03,617 - INFO - Current Price: $153.05
+2025-07-04 01:55:03,618 - INFO - Position open: True
+2025-07-04 01:55:03,621 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.05
+2025-07-04 01:55:21,214 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:55:21,215 - INFO - Current Price: $153.05
+2025-07-04 01:55:21,216 - INFO - Position open: True
+2025-07-04 01:55:21,221 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.05
+2025-07-04 01:55:33,891 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:55:33,892 - INFO - Current Price: $153.05
+2025-07-04 01:55:33,893 - INFO - Position open: True
+2025-07-04 01:55:33,897 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.05
+2025-07-04 01:55:51,824 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:55:51,825 - INFO - Current Price: $153.05
+2025-07-04 01:55:51,826 - INFO - Position open: True
+2025-07-04 01:55:51,827 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.05
+2025-07-04 01:56:04,204 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:56:04,204 - INFO - Current Price: $153.04
+2025-07-04 01:56:04,205 - INFO - Position open: True
+2025-07-04 01:56:04,208 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.04
+2025-07-04 01:56:22,101 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:56:22,103 - INFO - Current Price: $153.04
+2025-07-04 01:56:22,105 - INFO - Position open: True
+2025-07-04 01:56:22,126 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.04
+2025-07-04 01:56:34,528 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:56:34,529 - INFO - Current Price: $153.04
+2025-07-04 01:56:34,529 - INFO - Position open: True
+2025-07-04 01:56:34,533 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.04
+2025-07-04 01:56:52,396 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:56:52,397 - INFO - Current Price: $153.04
+2025-07-04 01:56:52,398 - INFO - Position open: True
+2025-07-04 01:56:52,402 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.04
+2025-07-04 01:57:05,041 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:57:05,042 - INFO - Current Price: $153.06
+2025-07-04 01:57:05,042 - INFO - Position open: True
+2025-07-04 01:57:05,044 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
+2025-07-04 01:57:22,657 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:57:22,658 - INFO - Current Price: $153.06
+2025-07-04 01:57:22,658 - INFO - Position open: True
+2025-07-04 01:57:22,662 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
+2025-07-04 01:57:35,325 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:57:35,325 - INFO - Current Price: $153.06
+2025-07-04 01:57:35,326 - INFO - Position open: True
+2025-07-04 01:57:35,331 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
+2025-07-04 01:57:53,054 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:57:53,057 - INFO - Current Price: $153.06
+2025-07-04 01:57:53,059 - INFO - Position open: True
+2025-07-04 01:57:53,075 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
+2025-07-04 01:58:05,559 - INFO - HTTP Request: POST https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/ "HTTP/1.1 200 OK"
+2025-07-04 01:58:05,559 - INFO - Current Price: $153.06
+2025-07-04 01:58:05,560 - INFO - Position open: True
+2025-07-04 01:58:05,563 - INFO - Entry price: 153.20, Range: 153.00–153.40, Current: $153.06
