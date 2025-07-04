@@ -33,9 +33,16 @@ from solders.pubkey import Pubkey
 
 from solders.instruction import AccountMeta
 
-
-
 from solders.rpc.responses import SendTransactionResp
+
+
+import base64
+import threading
+import time
+import traceback
+from solana.transaction import Transaction
+from solana.message import Message
+from solana.rpc.types import TxOpts
 
 
 
@@ -45,13 +52,21 @@ TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '')
 WALLET_PRIVATE_KEY = os.getenv('WALLET_PRIVATE_KEY', '')
 
+
 RPC_ENDPOINT = os.getenv('RPC_ENDPOINT', 'https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/')
 
 current_asset = "SOL"  # Tracks whether you're holding SOL or USDC
 
 
 
+# These must exist:
+wallet = Keypair.from_secret_key(...)  # your actual key loading
+solana_client = Client(RPC_ENDPOINT)
 
+
+SOL_MINT = "So11111111111111111111111111111111111111112"
+USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+LAMPORTS_PER_SOL = 1_000_000_000
 
 
 # --- Logging Setup ---
@@ -411,60 +426,70 @@ def get_latest_blockhash_with_retry(max_attempts=3, backoff_factor=2):
 
 
 
-def execute_swap(quote_response, wallet: Keypair, solana_client):
-    try:
-        logger.info("Requesting swap transaction from Jupiter...")
+def execute_swap(quote_response, wallet, solana_client):
+    global current_asset, swap_in_progress
+    if swap_in_progress:
+        log("Swap already in progress. Skipping.")
+        return
 
-        swap_payload = {
+    swap_in_progress = True
+    try:
+        log("Preparing Jupiter swap...")
+
+        # Step 1: Get swap transaction from Jupiter
+        payload = {
             "quoteResponse": quote_response,
             "userPublicKey": str(wallet.pubkey()),
             "wrapAndUnwrapSol": True,
             "asLegacyTransaction": True
         }
 
-        swap_txn_resp = requests.post(
-            "https://quote-api.jup.ag/v6/swap",
-            json=swap_payload,
-            headers={"Content-Type": "application/json"}
+        swap_resp = requests.post("https://quote-api.jup.ag/v6/swap", json=payload)
+        swap_resp.raise_for_status()
+        swap_data = swap_resp.json()
+
+        tx_base64 = swap_data.get("swapTransaction")
+        if not tx_base64:
+            log("Swap transaction missing from Jupiter response.")
+            return
+
+        # Step 2: Decode and prepare transaction
+        tx_bytes = base64.b64decode(tx_base64)
+        transaction = Transaction.deserialize(tx_bytes)
+
+        blockhash = get_latest_blockhash_with_retry()
+        if not blockhash:
+            log("No valid blockhash. Aborting swap.")
+            return
+
+        message = Message.new_with_blockhash(
+            instructions=transaction.message.instructions,
+            payer=wallet.pubkey(),
+            blockhash=blockhash
         )
-        swap_txn_resp.raise_for_status()
-        swap_tx = swap_txn_resp.json()
+        new_tx = Transaction.populate(message, transaction.signatures)
+        new_tx.fee_payer = wallet.pubkey()
+        new_tx.sign([wallet])
 
-        logger.info("Transaction deserialized.")
+        # Step 3: Send transaction
+        opts = TxOpts(skip_preflight=False, preflight_commitment="confirmed")
+        send_resp = solana_client.send_transaction(new_tx, opts=opts)
 
-        # Decode Jupiter's base64 transaction
-        tx_bytes = base64.b64decode(swap_tx["swapTransaction"])
-        versioned_tx = VersionedTransaction.from_bytes(tx_bytes)
-
-        # Sign the message manually
-        sig = wallet.sign_message(versioned_tx.message.serialize())
-
-        # Create signed transaction
-        signed_tx = VersionedTransaction(versioned_tx.message, [sig])
-
-        # Serialize to base64
-        signed_tx_b64 = base64.b64encode(signed_tx.serialize()).decode("utf-8")
-
-        logger.info("Sending signed transaction to Solana...")
-
-        send_resp = solana_client._provider.make_request(
-            "sendTransaction",
-            [signed_tx_b64, {"skipPreflight": False, "preflightCommitment": "confirmed"}]
-        )
-
-        # ✅ Log success or failure clearly
+        # Step 4: Confirm result
         if "result" in send_resp:
-            logger.info(f"✅ Swap executed! Tx Signature: {send_resp['result']}")
+            txid = send_resp["result"]
+            log(f"✅ Swap executed! TXID: {txid}")
+            send_telegram(f"🔄 Swap complete\nTX: https://solscan.io/tx/{txid}")
+            current_asset = "USDC"
         else:
-            logger.error(f"❌ Swap failed to send. Full response: {send_resp}")
-
-        logger.info(f"Swap transaction sent: {send_resp}")
-        return send_resp
+            log(f"❌ Swap failed to send. Full response: {send_resp}")
+            send_telegram(f"[ERROR] Swap failed: {send_resp}")
 
     except Exception as e:
-        logger.error(f"Swap error: {e}", exc_info=True)
-        return None
-
+        log(f"Swap execution error: {e}")
+        send_telegram(f"[ERROR] Swap error: {e}")
+    finally:
+        swap_in_progress = False
 
 
 def execute_reverse_swap():
@@ -589,7 +614,22 @@ def bot_loop():
                 log(f"BUY at ${buy_price:.2f} | SL: ${stop_loss_price:.2f}, TP: ${take_profit_price:.2f}")
                 send_telegram(f"\U0001F7E2 BUY at ${buy_price:.2f}")
                 play_sound("buy_alert.wav")
-                threading.Thread(target=execute_swap, daemon=True).start()
+
+                quote = get_jupiter_quote(
+                    input_mint=SOL_MINT,
+                    output_mint=USDC_MINT,
+                    amount=int(trade_amount * LAMPORTS_PER_SOL)
+                )
+                if not quote:
+                    log("⚠️ Failed to get Jupiter quote. Swap aborted.")
+                    position_open = False
+                    continue
+
+                threading.Thread(
+                    target=execute_swap,
+                    args=(quote, wallet, solana_client),
+                    daemon=True
+                ).start()
                 continue
 
             if position_open:
