@@ -41,9 +41,9 @@ from solders.rpc.responses import SendTransactionResp
 
 
 # --- Configuration ---
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '7053035774:AAGMkr9_BFNJJtfBLzPdnTmxXu3xnzdr53o')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '6265564865')
-WALLET_PRIVATE_KEY = os.getenv('WALLET_PRIVATE_KEY', '3HoiUVMBP3NfAgkZo1VAxsNmDwL5FEJUTj1wWrnYfx2t7orndtBfA7srzieEFAmJqkSVhGyfN8EdbF7eh2McMjDa')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN', '')
+TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '')
+WALLET_PRIVATE_KEY = os.getenv('WALLET_PRIVATE_KEY', '')
 
 RPC_ENDPOINT = os.getenv('RPC_ENDPOINT', 'https://hardworking-red-firefly.solana-mainnet.quiknode.pro/26a4ef1171209e5c637a5cc70ab7f79dff974beb/')
 
